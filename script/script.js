@@ -4,3 +4,7 @@ function ageInDays() {
     var ageOnDays = (2021 - birthyear) * 365;
     document.getElementById("answer").innerHTML = ("Result = " + ageOnDays);
 }
+
+function reset(){
+    document.getElementById("answer").innerHTML = ("Result =");
+}
